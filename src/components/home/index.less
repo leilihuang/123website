@@ -1,31 +1,12 @@
 .home-box{
     background-color: #faf5a0;
     .banner-box{
-        background: url('./images/banner1920x500.png') no-repeat;
-        width: 100%;
-        height: 500px;
+        background: url('./images/banner1920x500.png') center no-repeat;
     }
     .con-box{
-        width: 1200px;
-        margin: 0 auto;
-        .mt10{
-            margin-top: 10px;
-        }
         .title-bg{
             background: url('./images/title.png') no-repeat;
-            width: 100%;
-            height: 81px;
         } 
-        .title-text{
-            font-family: SourceHanSansCN-Bold;
-            font-size: 40px;
-            font-weight: normal;
-            font-stretch: normal;
-            letter-spacing: 0px;
-            color: #ffffff;
-            text-align: center;
-            line-height: 81px;
-       }
        .g1,.g3,.g4{
            background: #FFF;
        }
@@ -171,25 +152,7 @@
             margin-top: 60px;
             padding-bottom: 52px;
         }
-        .sq-btn{
-            display: inline-block;
-            width: 280px;
-            height: 60px;
-            line-height: 60px;
-            background-color: #ff0000;
-            box-shadow: 0px 6px 3px 0px 
-                rgba(0, 13, 22, 0.33);
-            // border-style: solid;
-            border-width: 2px;
-            border-image-source: linear-gradient(-17deg, 
-                #f24545 0%, 
-                #cd3333 100%);
-            border-image-slice: 1;   
-            font-size: 24px;
-            text-align: center;
-            color: #fff;
-            border-radius: 20px;
-        }
+
         .g4{
             .ms{
                 font-family: SourceHanSansCN-Regular;
@@ -214,6 +177,49 @@
                     background: #000;
                     margin-right: 20px;
                 }
+            }
+        }
+    }
+    .login{
+        position: absolute;
+        right: 0;
+        top: -510px;
+        width: 400px;
+        height: 500px;
+        background-color: #ffffff;
+        .title{
+            height: 80px;
+            line-height: 80px;
+            background-color: #8dc556;
+            font-size: 30px;
+	        color: #ffffff;
+        }
+        .form{
+            font-family: SourceHanSansCN-Regular;
+            font-size: 20px;
+            color: #8dc556;
+            padding-left: 37px;
+            .ipt{
+                width: 308px;
+                height: 38px;
+                margin: 5px 0;
+            }
+            .p-t25{
+                padding-top: 25px;
+            }
+            .u-btn{
+                margin-top: 36px;
+                margin-left: 22px;
+            }
+            .swipe{
+                margin-left: -37px;
+                width: 400px;
+                margin-top: 31px;
+                height: 40px;
+                line-height: 40px;
+                background-color: rgba(0, 0, 0, 0.2);
+                font-size: 18px;
+                color: #313131;
             }
         }
     }

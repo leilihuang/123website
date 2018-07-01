@@ -1,9 +1,24 @@
 <template>
     <div class="home-box">
-        <div class="banner-box">
+        <div class="banner-box u-banner">
 
         </div>
+
         <div class="con-box">
+            <div class="login">
+                <div class="title u-center">免费申请体验课</div>
+                <div class="form">
+                    <div class="i-tit p-t25">小朋友的姓名：</div>
+                    <input type="text" class="ipt" v-model="name" />
+                    <div class="i-tit">您的联系方式：</div>
+                    <input type="text" class="ipt" v-model.number="phone" maxlength="11" />
+                    <div class="i-tit">小朋友的年龄（岁）：</div>
+                    <input type="text" class="ipt" v-model="age" />
+                    <div class="u-btn" @click="submit">申请提交</div>
+                    <div class="swipe u-center">{{text}}</div>
+                </div>
+            </div>
+
             <div class="g1 mt10">
                 <div class="title-bg title-text">123足球理念——三条“大鱼”</div>
                 <div class="imgs clearfix">
@@ -121,7 +136,7 @@
                 </div>
 
                 <div class="sq-box">
-                    <div class="sq-btn">更多关于我们</div>
+                    <div class="u-btn">更多关于我们</div>
                 </div>
             </div>
         </div>
@@ -133,7 +148,17 @@ export default {
   data() {
     return {
       imgs: [1, 2, 3, 4, 5, 6, 7, 8, 9],
+      name: '',
+      phone: '',
+      age: '',
+      text: '135****306家长申请体验课成功！180****415',
     };
+  },
+  methods: {
+    submit() {
+    //   const { name, age, phone } = this;
+    //   console.log('提交================', name, age, phone);
+    },
   },
 };
 </script>

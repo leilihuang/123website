@@ -58,9 +58,6 @@ export default {
       defualtCur: 0,
     };
   },
-  computed() {
-
-  },
   methods: {
     setCur(index, url) {
       this.defualtCur = index;

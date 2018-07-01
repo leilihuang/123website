@@ -2,6 +2,12 @@
 
 > A Vue.js project
 
+## 目录结构
+* src
+    * common 公用文件
+    * router 路由配置
+    * components 组件目录
+
 ## Build Setup
 
 ``` bash
