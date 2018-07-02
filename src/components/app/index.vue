@@ -49,16 +49,16 @@ export default {
       menus: [
         { name: '首页', url: '/' },
         { name: '关于我们', url: '/about' },
-        { name: '网点分布', url: '/' },
-        { name: '私人订制', url: '/' },
+        { name: '网点分布', url: '/field' },
+        { name: '私人订制', url: '/customized' },
         { name: '媒体报道', url: '/' },
-        { name: '招贤纳士', url: '/' },
+        { name: '招贤纳士', url: '/recruit' },
         { name: '足球直播', url: '/' },
       ],
       defualtCur: 0,
     };
   },
-  computed() {
+  computed: {
 
   },
   methods: {
