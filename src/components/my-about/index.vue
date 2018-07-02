@@ -316,25 +316,25 @@ export default {
       isCur: 0,
       imgs: [{
         style: {
-          background: `url(${require('./images/1-1.png')}) center no-repeat`,
+          background: 'url(./images/1-1.png) center no-repeat',
           width: '240px',
           'margin-right': '20px',
         },
       }, {
         style: {
-          background: `url(${require('./images/1-2.png')}) center no-repeat`,
+          background: 'url(./images/1-2.png) center no-repeat',
           width: '240px',
           'margin-right': '20px',
         },
       }, {
         style: {
-          background: `url(${require('./images/2-1.png')}) center no-repeat`,
+          background: 'url(./images/2-1.png) center no-repeat',
           width: '240px',
           'margin-right': '20px',
         },
       }, {
         style: {
-          background: `url(${require('./images/2-2.png')}) center no-repeat`,
+          background: 'url(./images/2-2.png) center no-repeat',
           width: '240px',
           'margin-right': '20px',
         },
