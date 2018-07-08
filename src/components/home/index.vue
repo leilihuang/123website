@@ -143,6 +143,13 @@
     </div>
 </template>
 <script>
+import Vue from 'vue';
+import { Message } from 'element-ui';
+import Util from '../../common/tools/ajax';
+
+
+Vue.component(Message.name, Message);
+
 export default {
   name: 'home',
   data() {
@@ -156,13 +163,45 @@ export default {
   },
   methods: {
     submit() {
-    //   const { name, age, phone } = this;
-    //   console.log('提交================', name, age, phone);
+      const { name, age, phone } = this;
+
+      if (!name || !age || !phone) {
+        return Message({
+          message: '请填写完整的用户信息',
+          type: 'error',
+          duration: 4000,
+          center: true,
+        });
+      }
+
+      Util.api({
+        url: 'front/addExperienceUser',
+        method: 'POST',
+        data: {
+          childName: name,
+          age,
+          mobile: phone,
+          childSex: '男',
+          nearCenterAddress: '无',
+        },
+      }).then((res) => {
+        if (res.code === 0) {
+          this.name = '';
+          this.age = '';
+          this.phone = '';
+          Message({
+            message: '预约成功!',
+            type: 'success',
+            duration: 4000,
+            center: true,
+          });
+        }
+      });
     },
   },
 };
 </script>
 <style scoped lang="less">
-    @import '../../../static/css/index.less';
-    @import  './index.less';
+@import "../../../static/css/index.less";
+@import "./index.less";
 </style>

@@ -17,7 +17,7 @@
     <div class="footer-box">
       <div class="con clearfix">
         <div class="gzh">
-          <img src="" alt="">
+          <img src="./images/gzh.jpeg" alt="">
           <div class="bah">微信公众号</div>
         </div>
         <div class="center">
@@ -52,7 +52,7 @@ export default {
         { name: '网点分布', url: '/field' },
         { name: '私人订制', url: '/customized' },
         { name: '招贤纳士', url: '/recruit' },
-        { name: '足球直播', url: '/' },
+        { name: '足球直播', url: '/broadcast' },
       ],
       defualtCur: 0,
     };
