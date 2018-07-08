@@ -27,6 +27,7 @@ export default {
     return {
       relayList: [],
       ckUrl: '',
+      player: {}
     };
   },
   mounted() {
@@ -50,12 +51,16 @@ export default {
         container: '#ckplay', // “#”代表容器的ID，“.”或“”代表容器的class
         variable: 'player', // 该属性必需设置，值等于下面的new chplayer()的对象
         flashplayer: false, // 如果强制使用flashplayer则设置成true
+        autoplay:true,
         video: data[0].relay_url, // 视频地址
       };
-      const player = new ckplayer(videoObject);
+      this.player = new ckplayer(videoObject);
     },
     curPay(url) {
-      console.log('url================', url);
+      this.player.newVideo({
+        video: url,
+        autoplay:true,
+      })
     },
   },
 };
