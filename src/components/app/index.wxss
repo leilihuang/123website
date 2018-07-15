@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+}
+.app .header-box {
+  background-color: #fff663;
+  height: 80px;
+  line-height: 80px;
+  min-width: 1200px;
+}
+.app .header-box .bg {
+  margin: auto;
+  width: 1200px;
+}
+.app .header-box .logo {
+  vertical-align: middle;
+  margin-right: 53px;
+}
+.app .header-box .title-box {
+  display: inline-block;
+  font-family: SourceHanSansCN-Bold;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0px;
+}
+.app .header-box .title-box span {
+  text-align: center;
+  width: 100px;
+  display: inline-block;
+  cursor: pointer;
+}
+.app .header-box .title-box span a {
+  color: #313131;
+}
+.app .header-box .title-box .router-link-exact-active {
+  background-color: #8dc556;
+  color: #ffffff;
+  display: block;
+}
+.app .header-box .title-box .active {
+  background-color: none;
+}
+.app .footer-box {
+  width: 100%;
+  min-width: 1200px;
+  height: 315px;
+  background-color: #040404;
+  font-family: SourceHanSansCN-Regular;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  color: #dcdcdc;
+  line-height: 2;
+}
+.app .footer-box .t10 {
+  padding-top: 10px;
+}
+.app .footer-box a {
+  color: #fff;
+}
+.app .footer-box .con {
+  width: 1200px;
+  margin: auto;
+  padding-top: 22px;
+}
+.app .footer-box .con .gzh,
+.app .footer-box .con .center,
+.app .footer-box .con .yqlj {
+  float: left;
+}
+.app .footer-box .con .gzh {
+  width: 290px;
+  padding-top: 31px;
+  text-align: center;
+}
+.app .footer-box .con .gzh img {
+  display: inline-block;
+  width: 147px;
+  height: 147px;
+  background-color: #a0a0a0;
+  border: solid 1px #ffffff;
+  margin-bottom: 17px;
+}
+.app .footer-box .con .center {
+  border-left: 1px solid #fff;
+  border-right: 1px solid #fff;
+  width: 655px;
+  text-align: center;
+}
+.app .footer-box .con .center .logo {
+  width: 212px;
+}
+.app .footer-box .con .yqlj {
+  width: 250px;
+  padding-top: 33px;
+}
+.app .footer-box .con .yqlj .title {
+  text-align: center;
+}
+.app .footer-box .con .yqlj .link-item {
+  display: inline-block;
+  width: 122px;
+  text-align: center;
+}

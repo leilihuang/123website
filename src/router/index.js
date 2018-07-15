@@ -5,6 +5,7 @@ import About from '@/components/my-about';
 import Recruit from '@/components/recruit';
 import Customized from '@/components/customized';
 import Field from '@/components/field';
+import Broadcast from '@/components/broadcast';
 
 Vue.use(Router);
 
@@ -35,5 +36,11 @@ export default new Router({
       name: 'field',
       component: Field,
     },
+    {
+      path: '/broadcast',
+      name: 'broadcast',
+      component: Broadcast,
+    },
   ],
+  linkActiveClass: 'active'
 });
