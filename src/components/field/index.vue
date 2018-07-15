@@ -36,7 +36,7 @@
                         <p>
                             如果您希望我们可以在<span style="color: #ff0000;">您附近开班</span>，请立刻与我们取得联系！<br> （每个班满6人开班，最多满15人停止招生）
                         </p>
-                        <a class="oper-button"></a>
+                        <a class="oper-button" @click="goPage"></a>
                     </div>
                 </div>
             </div>
@@ -153,6 +153,9 @@ export default {
       }
       return '';
     },
+    goPage() {
+        this.$router.push({path: '/customized'});
+    }
   },
 };
 </script>
