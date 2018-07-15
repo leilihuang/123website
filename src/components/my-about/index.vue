@@ -1,7 +1,7 @@
 <template>
     <div class="abount-box">
         <div class="banner-box u-banner"></div>
-        <div class="con-box">
+        <div class="con-box" v-lazy-container="{ selector: 'img' }">
             <div class="g1 mt10">
                 <div class="title-bg title-text">公司简介&发展历程 </div>
                 <div class="pt52 pl80 clearfix">
@@ -126,9 +126,8 @@
                         取得中国足协D级以上证书方可从助教做起，
                          一步步成长成为教学能力过硬、个人素质修养全面的主教练。
                     </div>
-                    <div class="f-left rig pl80">
-
-                    </div>
+                    <!-- <div class="f-left rig pl80">
+                    </div> -->
                 </div>
 
                 <div class="u-center dh">
@@ -266,30 +265,30 @@
             </div>
             <div class="g5 mt10">
                 <div class="title-bg title-text">丰富多彩的会员活动</div>
-                <div class="hd-box clearfix pl80" @mouseout="hideMs(0)">
-                    <div class="imgs u-center" :class="{'cur' : isCur === 1}">
-                        <img src="./images/5-1.png" @mouseover="showMs(1)" />
+                <div class="hd-box clearfix pl80">
+                    <div class="imgs u-center" >
+                        <img src="./images/5-1.png" />
                         <div class="lab">杯赛联赛</div>
                         <div class="ms">
                             <div class="con">定期杯赛、联赛 在比赛中检测训练成果 在比赛中获得成长</div>
                         </div>
                     </div>
-                    <div class="imgs u-center" :class="{'cur' : isCur === 2}">
-                        <img src="./images/5-2.png" @mouseover="showMs(2)" @mouseout="hideMs(0)" />
+                    <div class="imgs u-center" >
+                        <img src="./images/5-2.png" />
                          <div class="lab">足球训练营</div>
                         <div class="ms">
                             <div class="con">定期杯赛、联赛 在比赛中检测训练成果 在比赛中获得成长</div>
                         </div>
                     </div>
-                    <div class="imgs u-center" :class="{'cur' : isCur === 3}">
-                    <img src="./images/5-3.png" @mouseover="showMs(3)" @mouseout="hideMs(0)" />
+                    <div class="imgs u-center">
+                    <img src="./images/5-3.png"/>
                      <div class="lab">社会活动</div>
                         <div class="ms">
                             <div class="con">定期杯赛、联赛 在比赛中检测训练成果 在比赛中获得成长</div>
                         </div>
                     </div>
-                    <div class="imgs u-center" :class="{'cur' : isCur === 4}">
-                    <img src="./images/5-4.png" @mouseover="showMs(4)" @mouseout="hideMs(0)" />
+                    <div class="imgs u-center" >
+                    <img src="./images/5-4.png" />
                      <div class="lab">冬/夏令营</div>
                         <div class="ms">
                             <div class="con">定期杯赛、联赛 在比赛中检测训练成果 在比赛中获得成长</div>
@@ -313,32 +312,56 @@ export default {
   name: 'home',
   data() {
     return {
-      isCur: 0,
       imgs: [{
         style: {
-          background: 'url(./images/1-1.png) center no-repeat',
+          background: 'url(/static/images/slide/1.jpeg) center no-repeat',
           width: '240px',
           'margin-right': '20px',
         },
       }, {
         style: {
-          background: 'url(./images/1-2.png) center no-repeat',
+          background: 'url(/static/images/slide/2.jpeg) center no-repeat',
           width: '240px',
           'margin-right': '20px',
         },
       }, {
         style: {
-          background: 'url(./images/2-1.png) center no-repeat',
+          background: 'url(/static/images/slide/3.jpeg) center no-repeat',
           width: '240px',
           'margin-right': '20px',
         },
       }, {
         style: {
-          background: 'url(./images/2-2.png) center no-repeat',
+          background: 'url(/static/images/slide/4.jpeg) center no-repeat',
           width: '240px',
           'margin-right': '20px',
         },
-      }],
+      }, {
+        style: {
+          background: 'url(/static/images/slide/5.jpeg) center no-repeat',
+          width: '240px',
+          'margin-right': '20px',
+        },
+      }, {
+        style: {
+          background: 'url(/static/images/slide/6.jpeg) center no-repeat',
+          width: '240px',
+          'margin-right': '20px',
+        },
+      }, {
+        style: {
+          background: 'url(/static/images/slide/7.jpeg) center no-repeat',
+          width: '240px',
+          'margin-right': '20px',
+        },
+      }, {
+        style: {
+          background: 'url(/static/images/slide/8.jpeg) center no-repeat',
+          width: '240px',
+          'margin-right': '20px',
+        },
+      }
+      ],
       // 滑动配置[obj]
       sliderinit: {
         currentPage: 0, // 当前页码
@@ -353,14 +376,6 @@ export default {
   },
   components: {
     slider,
-  },
-  methods: {
-    showMs(index) {
-      this.isCur = index;
-    },
-    hideMs(index) {
-      this.isCur = index;
-    },
   },
 };
 </script>

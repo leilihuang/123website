@@ -23,16 +23,22 @@ body {
             font-weight: normal;
             font-stretch: normal;
             letter-spacing: 0px;
-            color:#313131;
             span {
                 text-align: center;
                 width: 100px;
                 display: inline-block;
                 cursor: pointer;
+                a{
+                    color:#313131;
+                }
             }
-            .cur {
+            .router-link-exact-active {
                 background-color: #8dc556;
                 color: #ffffff;
+                display: block;
+            }
+            .active{
+                background-color: none;
             }
         }
     }
@@ -89,7 +95,7 @@ body {
                 .title{
                     text-align: center;
                 }
-                .go{
+                .link-item{
                     display: inline-block;
                     width: 122px;
                     text-align: center;

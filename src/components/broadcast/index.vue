@@ -1,5 +1,7 @@
 <template>
 	<div class="broadcast">
+    <img src="./images/bg.png" class="head-bg" />
+
 		<div id="ckplay" class="ckplay"></div>
     
     <div class="wl-box">
@@ -14,7 +16,10 @@
     </div>
 		
     <div class="ifram">
-  		<iframe src="//freelive.7m.com.cn/live.aspx?mark=gb&TimeZone=%2B0800&wordAd=&wadurl=http://&width=1200&cpageBgColor=FFFFFF&tableFontSize=12&cborderColor=333333&ctdColor1=EEEEEE&ctdColor2=FFFFFF&clinkColor=0044DD&cdateFontColor=FFFFFF&cdateBgColor=333333&scoreFontSize=12&cteamFontColor=000000&cgoalFontColor=FF0000&cgoalBgColor=FFFF99&cremarkFontColor=000000&cremarkBgColor=F7F8F3&Skins=2&teamWeight=400&scoreWeight=700&goalWeight=700&fontWeight=700&DSTbox=&away=1&red=0" height="800" width="1250" frameborder="0" marginwidth="0" marginheight="0" scrolling="yes"></iframe>
+      <div class="pay-tit">足球比分</div>
+      <div class="bf-box">
+  		  <iframe src="//freelive.7m.com.cn/live.aspx?mark=gb&TimeZone=%2B0800&wordAd=&wadurl=http://&width=1110&cpageBgColor=FFFFFF&tableFontSize=12&cborderColor=333333&ctdColor1=EEEEEE&ctdColor2=FFFFFF&clinkColor=0044DD&cdateFontColor=FFFFFF&cdateBgColor=333333&scoreFontSize=12&cteamFontColor=000000&cgoalFontColor=FF0000&cgoalBgColor=FFFF99&cremarkFontColor=000000&cremarkBgColor=F7F8F3&Skins=2&teamWeight=400&scoreWeight=700&goalWeight=700&fontWeight=700&DSTbox=&away=1&red=0" height="800" width="1110" frameborder="0" marginwidth="0" marginheight="0" scrolling="yes"></iframe>
+      </div>
     </div>
 	</div>
 </template>

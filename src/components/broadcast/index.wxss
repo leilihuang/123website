@@ -1,3 +1,18 @@
+.broadcast {
+  background-color: #a8a135;
+}
+.broadcast .head-bg {
+  width: 1200px;
+  display: block;
+  margin: 0 auto;
+  height: 138px;
+}
+.broadcast .wl-box {
+  background: #FFF;
+}
+.broadcast .wl-box .pay-list {
+  padding: 37px 100px;
+}
 .broadcast .pay-tit,
 .broadcast .wl-box,
 .broadcast .ifram {
@@ -18,11 +33,28 @@
   font-size: 18px;
   float: left;
   cursor: pointer;
+  text-decoration: underline;
 }
 .broadcast .ckplay {
-  margin: 30px auto;
+  margin: 0 auto 30px;
   width: 1200px;
   height: 400px;
+  margin-top: -78px;
+}
+.broadcast .ifram {
+  margin-top: 22px;
+}
+.broadcast .ifram .pay-tit {
+  font-family: SourceHanSansCN-Bold;
+  font-size: 20px;
+  color: #313131;
+  background-color: #c0fb87;
+  height: 49px;
+  line-height: 49px;
+}
+.broadcast .ifram .bf-box {
+  background: #FFF;
+  padding: 47px 45px;
 }
 body {
   background: #a8a135;

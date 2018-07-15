@@ -4,8 +4,18 @@ import Vue from 'vue';
 import 'element-ui/lib/theme-chalk/index.css';
 import App from './components/app';
 import router from './router';
+import VueLazyload from 'vue-lazyload';
 
 Vue.config.productionTip = false;
+
+Vue.use(VueLazyload, {
+  preLoad: 1.3,
+  error: '',
+  loading: '',
+  attempt: 5,
+  listenEvents: ['scroll']
+})
+
 /* eslint-disable */
 new Vue({
   el: '#app',

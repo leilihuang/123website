@@ -1,7 +1,6 @@
 <template>
-    <div class="home-box">
+    <div class="home-box" >
         <div class="banner-box u-banner">
-
         </div>
 
         <div class="con-box">
@@ -21,21 +20,21 @@
 
             <div class="g1 mt10">
                 <div class="title-bg title-text">123足球理念——三条“大鱼”</div>
-                <div class="imgs clearfix">
+                <div class="imgs clearfix" v-lazy-container="{ selector: 'img' }">
                     <div class="f-left">
-                        <img src="./images/h1.png" alt="">
+                        <img data-src="/static/images/home/h1.png" />
                         <div class="bt">
                             <span class="da">教育</span>大于足球
                         </div>
                     </div>
                     <div class="f-left">
-                        <img src="./images/h2.png" alt="">
+                        <img data-src="/static/images/home/h2.png" />
                         <div class="bt">
                             <span class="da">成长</span>大于成绩
                         </div>
                     </div>
                     <div class="f-left">
-                        <img src="./images/h3.png" alt="">
+                        <img data-src="/static/images/home/h3.png" />
                         <div class="bt">
                             <span class="da">自动</span>大于外力
                         </div>
@@ -129,14 +128,13 @@
                 <div class="title-bg title-text">123足球——合作伙伴</div>
                 <div class="ms">与123足球一起，助力亿万孩子的足球梦</div>
                 <div class="imgs-box">
-                    <div v-for="img in imgs" :key="img" class="hz-logo">
-                        <img src=""  />
-                        <div class="hz-tit">xxx</div>
+                    <div v-for="(img, index) in imgs" :key="index" class="hz-logo">
+                        <img v-lazy="img"  />
                     </div>
                 </div>
 
                 <div class="sq-box">
-                    <div class="u-btn">更多关于我们</div>
+                    <div class="u-btn" @click="goAbount">更多关于我们</div>
                 </div>
             </div>
         </div>
@@ -147,14 +145,24 @@ import Vue from 'vue';
 import { Message } from 'element-ui';
 import Util from '../../common/tools/ajax';
 
-
 Vue.component(Message.name, Message);
 
 export default {
   name: 'home',
   data() {
     return {
-      imgs: [1, 2, 3, 4, 5, 6, 7, 8, 9],
+      imgs: [
+          '/static/images/hzhb/1.png',
+          '/static/images/hzhb/2.png',
+          '/static/images/hzhb/3.jpg',
+          '/static/images/hzhb/4.png',
+          '/static/images/hzhb/5.gif',
+          '/static/images/hzhb/6.png',
+          '/static/images/hzhb/7.jpg',
+          '/static/images/hzhb/8.jpg',
+          '/static/images/hzhb/9.jpg',
+          '/static/images/hzhb/10.jpg',
+      ],
       name: '',
       phone: '',
       age: '',
@@ -198,6 +206,9 @@ export default {
         }
       });
     },
+    goAbount() {
+        this.$router.push('/about');
+    }
   },
 };
 </script>

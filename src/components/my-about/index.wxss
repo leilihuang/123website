@@ -130,9 +130,9 @@
 .abount-box .con-box .g3 .mode1 .left {
   padding-top: 46px;
   margin-right: 40px;
-  margin-left: 120px;
+  margin-left: 100px;
   text-indent: 40px;
-  width: 520px;
+  width: 1020px;
   font-family: SourceHanSansCN-Regular;
   font-size: 24px;
   color: #313131;
@@ -216,6 +216,9 @@
 .abount-box .con-box .g4 .table .c5 {
   background: #f29c9f;
 }
+.abount-box .con-box .g5 {
+  padding-bottom: 68px;
+}
 .abount-box .con-box .g5 .hd-box {
   margin-top: 46px;
   font-family: SourceHanSansCN-Regular;
@@ -226,7 +229,6 @@
   float: left;
   position: relative;
   margin-right: 40px;
-  margin-bottom: 25px;
   width: 228px;
 }
 .abount-box .con-box .g5 .hd-box .imgs .lab {
@@ -260,13 +262,12 @@
   width: 169px;
   margin: 0 auto;
 }
-.abount-box .con-box .g5 .hd-box .cur .ms {
+.abount-box .con-box .g5 .hd-box .imgs:hover .ms {
   display: block;
 }
 .abount-box .con-box .g5 .slide-imgs {
   padding: 0 90px;
   margin-top: 65px;
-  margin-bottom: 68px;
   height: 180px;
 }
 .slider-item {

@@ -1,0 +1,221 @@
+.home-box {
+  background-color: #faf5a0;
+}
+.home-box .banner-box {
+  background: url('images/banner1920x500.png') center no-repeat;
+}
+.home-box .con-box .title-bg {
+  background: url('images/title.png') no-repeat;
+}
+.home-box .con-box .g1,
+.home-box .con-box .g3,
+.home-box .con-box .g4 {
+  background: #FFF;
+}
+.home-box .con-box .g1 {
+  height: 500px;
+}
+.home-box .con-box .g1 .imgs {
+  padding-top: 80px;
+  font-family: SourceHanSansCN-Regular;
+  font-size: 24px;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  color: #313131;
+}
+.home-box .con-box .g1 .imgs .bt {
+  padding-top: 20px;
+  text-align: center;
+}
+.home-box .con-box .g1 .imgs .f-left {
+  float: left;
+  margin-left: 28px;
+}
+.home-box .con-box .g1 .imgs .da {
+  font-size: 30px;
+}
+.home-box .con-box .g2 {
+  background: url('images/g2-bg.jpg') no-repeat;
+  width: 100%;
+  background-color: #fffddd;
+  padding-bottom: 164px;
+}
+.home-box .con-box .g2 .qa-box,
+.home-box .con-box .g2 .q-con {
+  width: 1040px;
+  margin: 0 auto;
+}
+.home-box .con-box .g2 .qa-box {
+  padding-top: 967px;
+  font-family: SourceHanSansCN-Regular;
+  font-size: 24px;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0px;
+}
+.home-box .con-box .g2 .red {
+  color: #e60012;
+}
+.home-box .con-box .g2 .gree {
+  color: #097c25;
+}
+.home-box .con-box .g2 .blue {
+  color: #004986;
+}
+.home-box .con-box .g2 .q-red {
+  background-color: rgba(255, 187, 155, 0.6);
+}
+.home-box .con-box .g2 .q-gree {
+  background-color: rgba(182, 241, 164, 0.6);
+}
+.home-box .con-box .g2 .q-blue {
+  background-color: rgba(155, 207, 251, 0.6);
+}
+.home-box .con-box .g2 .da {
+  font-size: 30px;
+}
+.home-box .con-box .g2 .q-tit {
+  margin-top: 58px;
+}
+.home-box .con-box .g2 .q-con {
+  border-radius: 20px;
+  opacity: 0.6;
+  padding: 29px 36px;
+}
+.home-box .con-box .g3 .st1 {
+  width: 1120px;
+  height: 126px;
+  margin: 89px auto 19px;
+  border-radius: 20px;
+  opacity: 0.8;
+  font-family: SourceHanSansCN-Regular;
+}
+.home-box .con-box .g3 .st1 .left {
+  float: left;
+}
+.home-box .con-box .g3 .st1 .con-01 {
+  padding-left: 31px;
+  padding-top: 31px;
+  width: 230px;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
+.home-box .con-box .g3 .st1 .con-01 .da {
+  line-height: 1;
+  font-size: 30px;
+}
+.home-box .con-box .g3 .st1 .con-01 .ms {
+  font-size: 24px;
+}
+.home-box .con-box .g3 .st1 .img {
+  margin-top: 44px;
+  background: url('images/right.png') no-repeat;
+  width: 62px;
+  height: 42px;
+}
+.home-box .con-box .g3 .st1 .tips {
+  margin-top: 25px;
+  margin-left: 46px;
+  width: 725px;
+  font-size: 22px;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
+.home-box .con-box .g3 .c-01 {
+  background-color: rgba(143, 195, 31, 0.8);
+}
+.home-box .con-box .g3 .c-02 {
+  background-color: #50c7fc;
+}
+.home-box .con-box .g3 .c-02 .tips {
+  margin-top: 0;
+  line-height: 126px;
+}
+.home-box .con-box .g3 .c-03 {
+  background-color: #f98d42;
+}
+.home-box .con-box .g3 .c-03 .con-01 {
+  padding-top: 15px;
+}
+.home-box .con-box .g3 .c-03 .tips {
+  margin-top: 0;
+  line-height: 126px;
+}
+.home-box .con-box .g3 .c-04 {
+  background-color: rgba(143, 195, 31, 0.8);
+}
+.home-box .con-box .g3 .c-04 .tips {
+  margin-top: 40px;
+}
+.home-box .con-box .sq-box {
+  text-align: center;
+  margin-top: 60px;
+  padding-bottom: 52px;
+}
+.home-box .con-box .g4 .ms {
+  font-family: SourceHanSansCN-Regular;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 43px;
+  font-size: 30px;
+  color: #313131;
+}
+.home-box .con-box .g4 .imgs-box {
+  padding: 0 80px;
+}
+.home-box .con-box .g4 .imgs-box .hz-logo {
+  display: inline-block;
+}
+.home-box .con-box .g4 .imgs-box .hz-tit {
+  text-align: center;
+  line-height: 30px;
+}
+.home-box .con-box .g4 .imgs-box img {
+  width: 150px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.home-box .login {
+  position: absolute;
+  right: 0;
+  top: -510px;
+  width: 400px;
+  height: 500px;
+  background-color: #ffffff;
+}
+.home-box .login .title {
+  height: 80px;
+  line-height: 80px;
+  background-color: #8dc556;
+  font-size: 30px;
+  color: #ffffff;
+}
+.home-box .login .form {
+  font-family: SourceHanSansCN-Regular;
+  font-size: 20px;
+  color: #8dc556;
+  padding-left: 37px;
+}
+.home-box .login .form .ipt {
+  width: 308px;
+  height: 38px;
+  margin: 5px 0;
+}
+.home-box .login .form .p-t25 {
+  padding-top: 25px;
+}
+.home-box .login .form .u-btn {
+  margin-top: 36px;
+  margin-left: 22px;
+}
+.home-box .login .form .swipe {
+  margin-left: -37px;
+  width: 400px;
+  margin-top: 31px;
+  height: 40px;
+  line-height: 40px;
+  background-color: rgba(0, 0, 0, 0.2);
+  font-size: 18px;
+  color: #313131;
+}
