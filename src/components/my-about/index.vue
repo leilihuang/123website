@@ -1,7 +1,7 @@
 <template>
     <div class="abount-box">
         <div class="banner-box u-banner"></div>
-        <div class="con-box" v-lazy-container="{ selector: 'img' }">
+        <div class="con-box">
             <div class="g1 mt10">
                 <div class="title-bg title-text">公司简介&发展历程 </div>
                 <div class="pt52 pl80 clearfix">
