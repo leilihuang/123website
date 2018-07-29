@@ -1,8 +1,17 @@
 .home-box {
   background-color: #faf5a0;
+  position: relative;
 }
 .home-box .banner-box {
-  background: url('images/banner1920x500.png') center no-repeat;
+  background: url('images/home-bg.png') center no-repeat;
+  height: 1336px;
+}
+.home-box .banner-box .imgs-box {
+  width: 1200px;
+  margin: 0 auto;
+}
+.home-box .con-box {
+  margin-top: -836px;
 }
 .home-box .con-box .title-bg {
   background: url('images/title.png') no-repeat;
@@ -36,10 +45,8 @@
   font-size: 30px;
 }
 .home-box .con-box .g2 {
-  background: url('images/g2-bg.jpg') no-repeat;
   width: 100%;
-  background-color: #fffddd;
-  padding-bottom: 164px;
+  background-color: #FFF;
 }
 .home-box .con-box .g2 .qa-box,
 .home-box .con-box .g2 .q-con {
@@ -166,15 +173,22 @@
 }
 .home-box .con-box .g4 .imgs-box .hz-logo {
   display: inline-block;
+  width: 180px;
+  height: 160px;
+  line-height: 160px;
+  border: solid 1px #c9c9c9;
+  vertical-align: middle;
+  text-align: center;
+  margin-right: 20px;
+  margin-bottom: 20px;
 }
 .home-box .con-box .g4 .imgs-box .hz-tit {
   text-align: center;
   line-height: 30px;
 }
 .home-box .con-box .g4 .imgs-box img {
+  display: inline-block;
   width: 150px;
-  margin-right: 20px;
-  margin-bottom: 20px;
 }
 .home-box .login {
   position: absolute;

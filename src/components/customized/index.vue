@@ -38,13 +38,13 @@
                 </div>
                 <div class="img-wrap">
                     <div class="img-block">
-                        <img src="./images/customized-pic01.png"/>
+                        <img src="./images/4-1.jpg"/>
                     </div>
                     <div class="img-block">
-                        <img src="./images/customized-pic02.png"/>
+                        <img src="./images/4-2.jpg"/>
                     </div>
                     <div class="img-block">
-                        <img src="./images/customized-pic02.png"/>
+                        <img src="./images/4-3.jpg"/>
                     </div>
                 </div>
                 <div style="margin-top:50px;">
@@ -125,7 +125,7 @@
         </div>
          <!--3F-->
         <div class="g1 mt10">
-            <div class="title-bg title-text">足球运动对好处</div>
+            <div class="title-bg title-text">足球运动的好处</div>
             <div class="contact-wrap">
                 <div class="good-con">
                     <!--评论-->
@@ -150,7 +150,7 @@
                         孩子们户外运动越来越少，体素质全面下降，远远落后我们等邻居日本和韩国。
                     </p>
                     <div style="padding: 30px 40px;">
-                        <img src="./images/custom-charts.png"/>
+                        <img src="./images/custom-charts.jpg"/>
                     </div>
                     <p class="good-text">
                     足球作为少有的户外＋团队的运动，

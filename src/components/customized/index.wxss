@@ -1,0 +1,172 @@
+.customized-box {
+  background-color: #e3fffe;
+}
+.customized-box .banner-box {
+  background: url('images/banner3.jpg') center no-repeat;
+  background-size: cover;
+}
+.customized-box .con-box {
+  width: 1200px;
+  margin: 0 auto;
+}
+.customized-box .con-box img {
+  display: inline-block;
+  width: 100%;
+  vertical-align: top;
+}
+.customized-box .con-box .mt10 {
+  margin-top: 10px;
+}
+.customized-box .con-box .title-bg {
+  margin-bottom: 48px;
+  background: url('images/custom-title-bg.png') no-repeat;
+  width: 100%;
+  height: 81px;
+}
+.customized-box .con-box .title-text {
+  font-family: SourceHanSansCN-Bold;
+  font-size: 40px;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 81px;
+}
+.customized-box .con-box .g1,
+.customized-box .con-box .g3,
+.customized-box .con-box .g4 {
+  background: #FFF;
+}
+.customized-box .con-box .contact-wrap {
+  position: relative;
+  width: 100%;
+}
+.customized-box .con-box .text-wrap {
+  margin: 0px 105px 0px 83px;
+  width: 1012px;
+  font-family: SourceHanSansCN-Regular;
+  font-size: 24px;
+  color: #313131;
+}
+.customized-box .con-box .text-block {
+  text-align: justify;
+  text-justify: inter-ideograph;
+  text-indent: 2em;
+}
+.customized-box .con-box .text-cen {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #333;
+  font-weight: bold;
+}
+.customized-box .con-box .rela-block {
+  text-align: left;
+}
+.customized-box .con-box .rela-block .icon {
+  display: inline-block;
+  vertical-align: middle;
+  width: 28px;
+}
+.customized-box .con-box .img-wrap {
+  display: -webkit-box;
+  padding: 0px 83px;
+  margin-top: 40px;
+}
+.customized-box .con-box .img-wrap .img-block {
+  -webkit-box-flex: 1;
+  margin-right: 40px;
+}
+.customized-box .con-box .img-wrap .img-block img {
+  display: block;
+  width: 100%;
+}
+.customized-box .con-box .img-wrap .img-block:last-child {
+  margin-right: 0px;
+}
+.customized-box .con-box .group {
+  padding-bottom: 54px;
+  width: 1035px;
+  margin: 0px auto;
+}
+.customized-box .con-box .group .group-text {
+  margin: 0px auto;
+  width: 1020px;
+  font-size: 24px;
+  color: #313131;
+}
+.customized-box .con-box .group .group-img {
+  display: block;
+  margin: 37px auto 0px auto;
+  width: 635px;
+}
+.customized-box .con-box .custom-type-block {
+  display: flex;
+  align-items: center;
+  margin: 0px auto 39px auto;
+  width: 1038px;
+  height: 194px;
+}
+.customized-box .con-box .custom-type-block.type01 {
+  background: url("images/custom-type01.png") no-repeat;
+}
+.customized-box .con-box .custom-type-block.type02 {
+  background: url("images/custom-type02.png") no-repeat;
+}
+.customized-box .con-box .custom-type-block.type03 {
+  background: url("images/custom-type03.png") no-repeat;
+}
+.customized-box .con-box .custom-type-block.type04 {
+  background: url("images/custom-type04.png") no-repeat;
+}
+.customized-box .con-box .custom-type-block.type05 {
+  background: url("images/custom-type05.png") no-repeat;
+}
+.customized-box .con-box .custom-type-block.type06 {
+  background: url("images/custom-type06.png") no-repeat;
+}
+.customized-box .con-box .custom-type-block.type07 {
+  background: url("images/custom-type07.png") no-repeat;
+}
+.customized-box .con-box .custom-type-block.type08 {
+  background: url("images/custom-type08.png") no-repeat;
+}
+.customized-box .con-box .custom-type-block .custom-type-title {
+  width: 250px;
+  text-align: center;
+  font-size: 48px;
+  color: #ffffff;
+  word-wrap: break-word;
+}
+.customized-box .con-box .custom-type-block .custom-type-con {
+  margin: 0px auto;
+  width: 672px;
+  text-indent: 2em;
+  font-size: 24px;
+}
+.customized-box .con-box .custom-type-block:last-child {
+  margin-bottom: 0px;
+}
+.customized-box .con-box .good-con {
+  padding-bottom: 40px;
+  margin: 0px auto;
+  width: 1035px;
+}
+.customized-box .con-box .good-con .good-text {
+  font-size: 20px;
+  color: #3e3a39;
+  text-indent: 2em;
+  line-height: 50px;
+}
+.customized-box .con-box .custom-comment-wrap {
+  padding: 0px 40px;
+}
+.customized-box .con-box .custom-comment-wrap .custom-comment-item {
+  display: inline-block;
+  width: 460px;
+  vertical-align: top;
+}
+.customized-box .con-box .custom-comment-wrap .custom-comment-item:nth-child(odd) {
+  margin: 0px 15px 30px 0px;
+}

@@ -20,8 +20,8 @@
                             123足球全国范围内率先在全上海70多个培训中心对外招生。
                         </p>
                         <div class="imgs">
-                            <img src="./images/1-1.png" class="img">
-                            <img src="./images/1-2.png" class="img">
+                            <img src="./images/1-1.jpg" class="img">
+                            <img src="./images/1-2.jpg" class="img">
                         </div>
                     </div>
                     <ul class="f-left">
@@ -98,7 +98,7 @@
                                 您的孩子之后不一定需要成为一名运动员，但是一定需要成为一个具备优秀品格的“人”。
                             </p>
                         </div>
-                        <img src="./images/2-1.png" class="f-left img ml40" />
+                        <img src="./images/2-1.jpg" class="f-left img ml40" />
                     </div>
 
                     <div class="clearfix pt32">
@@ -142,7 +142,7 @@
                                 给予他们及时的鼓励和认可，促进自动力的产生，之后的一切便水到渠成。
                             </p>
                         </div>
-                        <img src="./images/2-3.png" class="f-left img ml40" />
+                        <img src="./images/2-3.jpg" class="f-left img ml40" />
                     </div>
                 </div>
             </div>
@@ -154,8 +154,9 @@
                         取得中国足协D级以上证书方可从助教做起，
                          一步步成长成为教学能力过硬、个人素质修养全面的主教练。
                     </div>
-                    <!-- <div class="f-left rig pl80">
-                    </div> -->
+                    <div class="f-left rig pl80">
+                        <img src="./images/jltd.jpg" alt="">
+                    </div>
                 </div>
 
                 <div class="u-center dh">
@@ -295,28 +296,28 @@
                 <div class="title-bg title-text">丰富多彩的会员活动</div>
                 <div class="hd-box clearfix pl80">
                     <div class="imgs u-center" >
-                        <img src="./images/5-1.png" />
+                        <img src="./images/5-1.jpg" />
                         <div class="lab">杯赛联赛</div>
                         <div class="ms">
                             <div class="con">定期杯赛、联赛 在比赛中检测训练成果 在比赛中获得成长</div>
                         </div>
                     </div>
                     <div class="imgs u-center" >
-                        <img src="./images/5-2.png" />
+                        <img src="./images/5-2.jpg" />
                          <div class="lab">足球训练营</div>
                         <div class="ms">
                             <div class="con">定期杯赛、联赛 在比赛中检测训练成果 在比赛中获得成长</div>
                         </div>
                     </div>
                     <div class="imgs u-center">
-                    <img src="./images/5-3.png"/>
+                    <img src="./images/5-3.jpg"/>
                      <div class="lab">社会活动</div>
                         <div class="ms">
                             <div class="con">定期杯赛、联赛 在比赛中检测训练成果 在比赛中获得成长</div>
                         </div>
                     </div>
                     <div class="imgs u-center" >
-                    <img src="./images/5-4.png" />
+                    <img src="./images/5-4.jpg" />
                      <div class="lab">冬/夏令营</div>
                         <div class="ms">
                             <div class="con">定期杯赛、联赛 在比赛中检测训练成果 在比赛中获得成长</div>
@@ -342,49 +343,49 @@ export default {
     return {
       imgs: [{
         style: {
-          background: 'url(/static/images/slide/1.jpeg) center no-repeat',
+          background: 'url(/static/images/slide/1.jpg) center no-repeat',
           width: '240px',
           'margin-right': '20px',
         },
       }, {
         style: {
-          background: 'url(/static/images/slide/2.jpeg) center no-repeat',
+          background: 'url(/static/images/slide/2.jpg) center no-repeat',
           width: '240px',
           'margin-right': '20px',
         },
       }, {
         style: {
-          background: 'url(/static/images/slide/3.jpeg) center no-repeat',
+          background: 'url(/static/images/slide/3.jpg) center no-repeat',
           width: '240px',
           'margin-right': '20px',
         },
       }, {
         style: {
-          background: 'url(/static/images/slide/4.jpeg) center no-repeat',
+          background: 'url(/static/images/slide/4.jpg) center no-repeat',
           width: '240px',
           'margin-right': '20px',
         },
       }, {
         style: {
-          background: 'url(/static/images/slide/5.jpeg) center no-repeat',
+          background: 'url(/static/images/slide/5.jpg) center no-repeat',
           width: '240px',
           'margin-right': '20px',
         },
       }, {
         style: {
-          background: 'url(/static/images/slide/6.jpeg) center no-repeat',
+          background: 'url(/static/images/slide/6.jpg) center no-repeat',
           width: '240px',
           'margin-right': '20px',
         },
       }, {
         style: {
-          background: 'url(/static/images/slide/7.jpeg) center no-repeat',
+          background: 'url(/static/images/slide/7.jpg) center no-repeat',
           width: '240px',
           'margin-right': '20px',
         },
       }, {
         style: {
-          background: 'url(/static/images/slide/8.jpeg) center no-repeat',
+          background: 'url(/static/images/slide/8.jpg) center no-repeat',
           width: '240px',
           'margin-right': '20px',
         },

@@ -22,7 +22,7 @@
 }
 .field-box .banner-box {
   width: 100%;
-  background: url('images/field-banner1920x500.png') center no-repeat;
+  background: url('images/banner1.jpg') center no-repeat;
   background-size: cover;
 }
 .field-box .con-box {
@@ -45,12 +45,16 @@
 }
 .field-box .con-box .field-floor1-text {
   margin: 0px auto;
-  padding-bottom: 48px;
   width: 1032px;
   font-family: SourceHanSansCN-Regular;
   font-size: 24px;
   color: #313131;
   text-indent: 2em;
+}
+.field-box .con-box .red {
+  color: red;
+  font-weight: bold;
+  padding-bottom: 48px;
 }
 .field-box .con-box .title-text {
   font-family: SourceHanSansCN-Bold;
@@ -137,6 +141,29 @@
   background: url('images/go-detail.png') no-repeat;
   cursor: pointer;
 }
+.field-box .con-box .field-table-con {
+  margin: 0px auto;
+  width: 1032px;
+  font-weight: bold;
+}
+.field-box .con-box .field-selector {
+  display: flex;
+}
+.field-box .con-box .field-selector .selector-title {
+  margin-right: 67px;
+  height: 42px;
+  line-height: 42px;
+  font-size: 20px;
+  color: #959595;
+}
+.field-box .con-box .field-selector .selector-wrap li {
+  width: 135px;
+  height: 42px;
+}
 .field-box .field-table {
   margin-bottom: 74px;
+}
+.field-box .field-table .el-table .cell {
+  font-weight: bold;
+  font-size: 18px;
 }

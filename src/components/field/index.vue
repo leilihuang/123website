@@ -9,8 +9,9 @@
                 <div class="title-bg title-text">开放预约网点</div>
                 <div class="contact-wrap">
                     <p class="field-floor1-text">
-                        123足球在球场的选择上，除了便利性和环境之外，我们最为看重的是安全性。 让孩子在一个标准规格、安全的环境下享受足球，是家长、也是我们最关注的事情。 以下是我们目前尚有时间段与名额、并开放预约体验课的球场：
+                        123足球在球场的选择上，除了便利性和环境之外，我们最为看重的是安全性。 让孩子在一个标准规格、安全的环境下享受足球，是家长、也是我们最关注的事情。
                     </p>
+                    <p class="field-floor1-text red"> 以下是我们目前尚有时间段与名额、并开放预约体验课的球场</p>
                 </div>
             </div>
             <div class="g1 mt10">
@@ -89,7 +90,7 @@
                                 <span>缺少素质教育的中国足球现状</span>
                             </div>
                         </div>
-                        <img class="process-img" src="./images/field-process.png" />
+                        <img class="process-img" src="./images/field-process.jpg" />
                         <p class="process-bottom-text">
                             柏拉图说：为了让人类有成功的生活，神提供了两种管道——教育与运动。 我们也越来越看到，这两种管道是相辅相成、缺一不可的。
                         </p>
