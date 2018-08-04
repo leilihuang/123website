@@ -141,10 +141,7 @@ export default {
           data,
         } = res;
         if (code === 0) {
-          console.log('================', data);
-
           this.dataList = data.list;
-          console.log('this================', this.dataList);
         }
       });
     },

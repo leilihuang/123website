@@ -17,7 +17,11 @@
                     <div class="i-tit">小朋友的年龄（岁）：</div>
                     <input type="text" class="ipt" v-model="age" />
                     <div class="u-btn" @click="submit">申请提交</div>
-                    <div class="swipe u-center">{{text}}</div>
+                    
+                    <div class="swipe u-center">
+                        <slider :pages="pages" :sliderinit="sliderinit">
+                        </slider>
+                    </div>
                 </div>
             </div>
 
@@ -117,6 +121,7 @@
 <script>
 import Vue from 'vue';
 import { Message } from 'element-ui';
+import slider from 'vue-concise-slider';
 import Util from '../../common/tools/ajax';
 
 Vue.component(Message.name, Message);
@@ -140,8 +145,37 @@ export default {
       name: '',
       phone: '',
       age: '',
-      text: '135****306家长申请体验课成功！180****415',
+      pages: [
+          {
+              html: '<div>135****306家长申请体验课成功！180****415</div>',
+               style: {
+                'font-size': '18px'
+                }
+          },
+           {
+              html: '<div>133****300家长申请体验课成功！188****411</div>',
+              style: {
+                'font-size': '18px'
+                }
+          },
+      ],
+            // 滑动配置[obj]
+      sliderinit: {
+        currentPage: 0, // 当前页码
+        thresholdDistance: 500, // 滑动判定距离
+        thresholdTime: 100, // 滑动判定时间
+        autoplay: 3000, // 自动滚动[ms]
+        loop: true, // 循环滚动
+        infinite: 3, // 无限滚动前后遍历数
+        slidesToScroll: 1, // 每次滑动项数
+      },
     };
+  },
+  components: {
+      slider
+  },
+  mounted(){
+      document.querySelector('.slider-pagination').style = "display: none"
   },
   methods: {
     submit() {

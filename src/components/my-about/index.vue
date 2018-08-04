@@ -1,5 +1,5 @@
 <template>
-    <div class="abount-box">
+    <div class="abount-box"  v-lazy-container="{ selector: 'img' }">
         <div class="banner-box u-banner"></div>
         <div class="con-box">
             <div class="g1 mt10">
@@ -20,8 +20,8 @@
                             123足球全国范围内率先在全上海70多个培训中心对外招生。
                         </p>
                         <div class="imgs">
-                            <img src="./images/1-1.jpg" class="img">
-                            <img src="./images/1-2.jpg" class="img">
+                            <img data-src="/static/images/my-about/1-1.jpg" class="img">
+                            <img data-src="/static/images/my-about/1-2.jpg" class="img">
                         </div>
                     </div>
                     <ul class="f-left">
@@ -98,11 +98,11 @@
                                 您的孩子之后不一定需要成为一名运动员，但是一定需要成为一个具备优秀品格的“人”。
                             </p>
                         </div>
-                        <img src="./images/2-1.jpg" class="f-left img ml40" />
+                        <img data-src="/static/images/my-about/2-1.jpg" class="f-left img ml40" />
                     </div>
 
                     <div class="clearfix pt32">
-                        <img src="./images/2-2.png" class="f-left img mt63 mr63" />
+                        <img data-src="/static/images/my-about/2-2.png" class="f-left img mt63 mr63" />
                         <div class="f-left con">
                             <div class="title">二、成长永远大于比赛结果</div>
                             <p class="text">
@@ -142,7 +142,7 @@
                                 给予他们及时的鼓励和认可，促进自动力的产生，之后的一切便水到渠成。
                             </p>
                         </div>
-                        <img src="./images/2-3.jpg" class="f-left img ml40" />
+                        <img data-src="/static/images/my-about/2-3.jpg" class="f-left img ml40" />
                     </div>
                 </div>
             </div>
@@ -155,16 +155,16 @@
                          一步步成长成为教学能力过硬、个人素质修养全面的主教练。
                     </div>
                     <div class="f-left rig pl80">
-                        <img src="./images/jltd.jpg" alt="">
+                        <img data-src="/static/images/my-about/jltd.jpg" alt="">
                     </div>
                 </div>
 
                 <div class="u-center dh">
-                    <img src="./images/3-0.png" />
+                    <img data-src="/static/images/my-about/3-0.png" />
                 </div>
 
                 <div class="j1 clearfix">
-                    <img src="./images/3-1.png" class="f-left imgs" />
+                    <img data-src="/static/images/my-about/3-1.png" class="f-left imgs" />
                     <div class="f-left rig">
                         <p>
                             123足球俱乐部的所有主教练，均需要陆续接受中国足协、 亚足联、欧足联的相关培训，
@@ -178,7 +178,7 @@
                 </div>
 
                 <div class="j1 clearfix">
-                    <img src="./images/3-2.png" class="f-left imgs" />
+                    <img data-src="/static/images/my-about/3-2.png" class="f-left imgs" />
                     <div class="f-left rig">
                         <p>
                             123足球俱乐部全体教练员，均是俱乐部精挑细选，经过层层选拔和淘汰之后签约的全职员工。
@@ -192,7 +192,7 @@
                 </div>
 
                 <div class="j1 clearfix">
-                    <img src="./images/3-3.png" class="f-left imgs" />
+                    <img data-src="/static/images/my-about/3-3.png" class="f-left imgs" />
                     <div class="f-left rig">
                         <p>
                             123足球俱乐部的所有教练，均需定期接受专业培训。从俱乐部内部的每周定期至少三次分别来自总教练、
@@ -222,7 +222,7 @@
                         </p>
                     </div>
                     <div class="imgs">
-                        <img src="./images/4.png" />
+                        <img data-src="/static/images/my-about/4.png" />
                     </div>
 
                     <div class="table">
@@ -296,28 +296,28 @@
                 <div class="title-bg title-text">丰富多彩的会员活动</div>
                 <div class="hd-box clearfix pl80">
                     <div class="imgs u-center" >
-                        <img src="./images/5-1.jpg" />
+                        <img data-src="/static/images/my-about/5-1.jpg" />
                         <div class="lab">杯赛联赛</div>
                         <div class="ms">
                             <div class="con">定期杯赛、联赛 在比赛中检测训练成果 在比赛中获得成长</div>
                         </div>
                     </div>
                     <div class="imgs u-center" >
-                        <img src="./images/5-2.jpg" />
+                        <img data-src="/static/images/my-about/5-2.jpg" />
                          <div class="lab">足球训练营</div>
                         <div class="ms">
                             <div class="con">定期杯赛、联赛 在比赛中检测训练成果 在比赛中获得成长</div>
                         </div>
                     </div>
                     <div class="imgs u-center">
-                    <img src="./images/5-3.jpg"/>
+                    <img data-src="/static/images/my-about/5-3.jpg"/>
                      <div class="lab">社会活动</div>
                         <div class="ms">
                             <div class="con">定期杯赛、联赛 在比赛中检测训练成果 在比赛中获得成长</div>
                         </div>
                     </div>
                     <div class="imgs u-center" >
-                    <img src="./images/5-4.jpg" />
+                    <img data-src="/static/images/my-about/5-4.jpg" />
                      <div class="lab">冬/夏令营</div>
                         <div class="ms">
                             <div class="con">定期杯赛、联赛 在比赛中检测训练成果 在比赛中获得成长</div>

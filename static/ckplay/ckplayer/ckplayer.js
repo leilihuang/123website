@@ -5716,7 +5716,6 @@ function ckplayerConfig() {
 				} catch(event) {this.log(event);}
 				return;
 			}
-			//console.log(this.animateElementArray)
 			var index = this.arrIndexOf(this.animateElementArray, id);
 			if(index > -1) {
 				this.animateArray[index].callBackFunction();

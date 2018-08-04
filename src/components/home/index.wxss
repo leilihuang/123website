@@ -225,7 +225,6 @@
   margin-left: 22px;
 }
 .home-box .login .form .swipe {
-  display: none;
   margin-left: -37px;
   width: 400px;
   margin-top: 31px;
