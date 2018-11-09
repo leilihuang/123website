@@ -27,6 +27,7 @@
         </div>
         <div class="yqlj">
           <div class="title">友情链接</div>
+          <a href="http://www.zuqiuhai.com" class="link-item">足球教学</a>
           <a href="#" class="link-item">阿里体育</a>
           <a href="#" class="link-item">腾讯体育</a>
           <a href="#" class="link-item">新浪体育</a>
