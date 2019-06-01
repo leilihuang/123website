@@ -19,7 +19,7 @@
         </div>
         <div class="center">
           <img class="logo" src="./images/logo.png" alt="">
-          <div class="bah t10">Copyright©123足球&nbsp;&nbsp;沪ICP备16022933号-4</div>
+          <div class="bah t10">Copyright©123足球&nbsp;&nbsp;沪ICP备17011612号-2</div>
           <div class="bah">报名热线：13524544990（微信同号）</div>
           <div class="bah">地址：上海市普陀区武宁路350号联合大厦3楼</div>
           <div class="bah">合作邮箱：haiping@123footballclub.com</div>

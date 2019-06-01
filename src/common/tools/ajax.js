@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 class Ajax {
-    host = 'http://club.123footballclub.com/football/';
+    host = 'http://club.123zuqiu.cn/football/';
     api = (params = {}) => {
       const defaultParams = {
         method: 'GET',
