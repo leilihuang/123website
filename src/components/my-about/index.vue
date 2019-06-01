@@ -63,7 +63,7 @@
                         <li>
                             <span class="sj overHide">2010年9月</span>
                             <i class="rad"></i>
-                            <span class="con overHide">全国学员突破2万人</span>
+                            <span class="con overHide">全国学员突破1万人</span>
                         </li>
                         <li>
                             <span class="sj overHide">2010年7月</span>
