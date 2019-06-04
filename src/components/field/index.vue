@@ -117,7 +117,18 @@ Vue.component(Table.name, Table);
 Vue.component(TableColumn.name, TableColumn);
 
 export default {
-  name: 'field',
+    name: 'field',
+    metaInfo: {
+        title: '123足球培训网点分布－123足球',
+        meta: [{                 // set meta
+            name: 'keyWords',
+            content: '123足球网点'
+        },
+        {
+            name: 'description',
+            content: '要了解123足球青少儿足球培训俱乐部上海及全国培训网点、中心分布，就上123足球官网。'
+        }]
+    },
   data() {
     return {
       activeName: 'first',

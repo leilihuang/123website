@@ -338,7 +338,18 @@
 import slider from 'vue-concise-slider';
 
 export default {
-  name: 'home',
+    name: 'home',
+    metaInfo: {
+        title: '123足球青少儿足球培训俱乐部简介－123足球',
+        meta: [{                 // set meta
+            name: 'keyWords',
+            content: '123足球培训'
+        },
+        {
+            name: 'description',
+            content: '要了解123足球青少儿足球培训俱乐部，就上123足球官网网站，了解俱乐部发展历程，课程体系，相约10年老品牌，让孩子从此爱上足球，收获快乐与健康。'
+        }]
+    },
   data() {
     return {
       imgs: [{

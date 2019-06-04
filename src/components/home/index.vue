@@ -127,7 +127,18 @@ import Util from '../../common/tools/ajax';
 Vue.component(Message.name, Message);
 
 export default {
-  name: 'home',
+    name: 'home',
+    metaInfo: {
+        title: '123足球—专业青少儿足球培训俱乐部｜快乐足球｜寓教于乐｜足球教育',
+        meta: [{                 // set meta
+            name: 'keyWords',
+            content: '123足球，足球培训，青少儿足球培训，足球俱乐部'
+        },
+        {
+            name: 'description',
+            content: '123足球，国内专业的青少儿足球培训俱乐部，多年来专注、深耕4—14岁儿童足球培训，累计培训学员多达5万余人。2015年，123青少儿足球培训在上海正式在校园足球体系外，全面对外招生。'
+        }]
+    },
   data() {
     return {
       imgs: [

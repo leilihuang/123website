@@ -42,5 +42,5 @@ export default new Router({
       component: Broadcast,
     },
   ],
-  linkActiveClass: 'active'
+  linkActiveClass: 'active',
 });

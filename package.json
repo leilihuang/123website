@@ -15,6 +15,7 @@
     "element-ui": "^2.4.3",
     "vue": "^2.5.2",
     "vue-concise-slider": "^2.4.8",
+    "vue-meta-info": "^0.1.7",
     "vue-router": "^3.0.1",
     "vue-swiper": "^0.5.0"
   },
@@ -53,6 +54,7 @@
     "postcss-import": "^11.0.0",
     "postcss-loader": "^2.0.8",
     "postcss-url": "^7.2.1",
+    "prerender-spa-plugin": "^3.4.0",
     "rimraf": "^2.6.0",
     "semver": "^5.3.0",
     "shelljs": "^0.7.6",

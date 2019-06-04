@@ -28,6 +28,17 @@ import Util from '../../common/tools/ajax';
 
 export default {
   name: 'broadcast',
+  metaInfo: {
+        title: '广州竞赛直播｜上海体育台直播｜CCTV5+直播－123足球',
+        meta: [{                 // set meta
+            name: 'keyWords',
+            content: '广州竞赛直播；上海体育直播；CCTV5+直播'
+        },
+        {
+            name: 'description',
+            content: '观看广州竞赛台、上海体育台／五星体育台、CCTV5/CCTV5+以及北京体育等各大体育台直播，就上123足球体育直播版块，尽揽全球体育频道，纵览全球赛事，应有尽有。'
+        }]
+    },
   data() {
     return {
       relayList: [],

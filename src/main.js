@@ -5,6 +5,9 @@ import 'element-ui/lib/theme-chalk/index.css';
 import App from './components/app';
 import router from './router';
 import VueLazyload from 'vue-lazyload';
+import MetaInfo from 'vue-meta-info';
+
+Vue.use(MetaInfo);
 
 Vue.config.productionTip = false;
 
@@ -13,8 +16,8 @@ Vue.use(VueLazyload, {
   error: '',
   loading: '',
   attempt: 5,
-  listenEvents: ['scroll']
-})
+  listenEvents: ['scroll'],
+});
 
 /* eslint-disable */
 new Vue({
