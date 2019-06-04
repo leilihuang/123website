@@ -34,7 +34,7 @@ const webpackConfig = merge(baseWebpackConfig, {
       path.join(__dirname, '../dist'),
       // 列出需要预渲染的路由名称
       // 如果没有对应的路由，也会生成对应的目录
-      [ '/', '/about', '/recruit', '/customized', '/field', '/broadcast']
+      ['/', '/about', '/recruit', '/customized', '/field', '/broadcast']
     ),
     // http://vuejs.github.io/vue-loader/en/workflow/production.html
     new webpack.DefinePlugin({

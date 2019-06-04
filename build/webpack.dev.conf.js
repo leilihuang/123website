@@ -10,6 +10,8 @@ const CopyWebpackPlugin = require('copy-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const FriendlyErrorsPlugin = require('friendly-errors-webpack-plugin');
 const portfinder = require('portfinder');
+const PrerenderSpaPlugin = require('prerender-spa-plugin')
+
 
 const HOST = process.env.HOST;
 const PORT = process.env.PORT && Number(process.env.PORT);
@@ -46,6 +48,13 @@ const devWebpackConfig = merge(baseWebpackConfig, {
     },
   },
   plugins: [
+    new PrerenderSpaPlugin(
+      // Absolute path to compiled SPA
+      path.join(__dirname, '../dist'),
+      // 列出需要预渲染的路由名称
+      // 如果没有对应的路由，也会生成对应的目录
+      [ '/about', '/recruit', '/customized', '/field', '/broadcast']
+    ),
     new webpack.DefinePlugin({
       'process.env': require('../config/dev.env'),
     }),
