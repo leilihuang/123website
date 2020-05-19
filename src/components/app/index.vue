@@ -20,7 +20,7 @@
         <div class="center">
           <img class="logo" src="./images/logo.png" alt="">
           <div class="bah t10">Copyright©123足球&nbsp;&nbsp;沪ICP备17011612号-2</div>
-          <div class="bah">报名热线：13524544990（微信同号）</div>
+          <div class="bah">报名热线：15601668005（微信同号）</div>
           <div class="bah">地址：上海市普陀区武宁路350号联合大厦3楼</div>
           <div class="bah">合作邮箱：haiping@123footballclub.com</div>
           <div class="bah">工作时间：09:00~22:00</div>
@@ -46,48 +46,48 @@
 </template>
 
 <script>
-  export default {
-    name: 'app',
-    data() {
-      return {
-        menus: [{
-            name: '首页',
-            url: '/'
-          },
-          {
-            name: '关于我们',
-            url: '/about'
-          },
-          {
-            name: '网点分布',
-            url: '/field'
-          },
-          {
-            name: '私人订制',
-            url: '/customized'
-          },
-          {
-            name: '招贤纳士',
-            url: '/recruit'
-          },
-          {
-            name: '足球直播',
-            url: '/broadcast'
-          },
-        ],
-        defualtCur: 0,
-      };
-    },
-    computed: {
-  
-    },
-    methods: {
-      setCur(index, url) {
-        this.defualtCur = index;
-        this.$router.push(url);
+export default {
+  name: 'app',
+  data() {
+    return {
+      menus: [{
+        name: '首页',
+        url: '/',
       },
+      {
+        name: '关于我们',
+        url: '/about',
+      },
+      {
+        name: '网点分布',
+        url: '/field',
+      },
+      {
+        name: '私人订制',
+        url: '/customized',
+      },
+      {
+        name: '招贤纳士',
+        url: '/recruit',
+      },
+      {
+        name: '足球直播',
+        url: '/broadcast',
+      },
+      ],
+      defualtCur: 0,
+    };
+  },
+  computed: {
+
+  },
+  methods: {
+    setCur(index, url) {
+      this.defualtCur = index;
+      this.$router.push(url);
     },
-  };
+  },
+};
 </script>
 
 <style scoped lang="less">

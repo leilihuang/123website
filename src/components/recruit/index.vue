@@ -12,7 +12,7 @@
                 <img src="./images/spread.jpg" />
                 <div class="contact-info">
                     <p>招聘官方联系QQ：461781529</p>
-                    <p>招聘官方联系微信：13524544990</p>
+                    <p>招聘官方联系微信：15601668005</p>
                     <p>24小时客服咨询电话：4001768367</p>
                     <p>公司地址：上海市普陀区武宁路350号联合大厦14楼</p>
                     <p>简历投送邮箱：haiping@123footballclub.com</p>
@@ -226,18 +226,18 @@
 </template>
 <script>
 export default {
-    name: 'recruit',
-    metaInfo: {
-        title: '123足球教练、市场顾问招聘－123足球',
-        meta: [{                 // set meta
-            name: 'keyWords',
-            content: '123足球招聘'
-        },
-        {
-            name: 'description',
-            content: '123足球教练来自全世界十多个国家和地区，专业、热情、有激情、有爱心，都是愿意为足球做点事之人。欢迎有志之士前来应聘，加入我们有爱都大家庭。'
-        }]
+  name: 'recruit',
+  metaInfo: {
+    title: '123足球教练、市场顾问招聘－123足球',
+    meta: [{ // set meta
+      name: 'keyWords',
+      content: '123足球招聘',
     },
+    {
+      name: 'description',
+      content: '123足球教练来自全世界十多个国家和地区，专业、热情、有激情、有爱心，都是愿意为足球做点事之人。欢迎有志之士前来应聘，加入我们有爱都大家庭。',
+    }],
+  },
   data() {
     return {};
   },

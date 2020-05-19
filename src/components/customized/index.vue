@@ -29,7 +29,7 @@
                     <!--联系方式-->
                     <p class="rela-block">
                         <img class="icon"  src="./images/wx-icon.png" width="28"/>
-                        <span class="rela">客服热线：13524544990（微信同号）</span>
+                        <span class="rela">客服热线：15601668005（微信同号）</span>
                     </p>
                     <p class="rela-block">
                         <img class="icon" src="./images/email-icon.png" width="23"/>
@@ -179,18 +179,18 @@
 </template>
 <script>
 export default {
-   name: 'customized',
-    metaInfo: {
-        title: '123足球私人定制课程体系－123足球',
-        meta: [{                 // set meta
-            name: 'keyWords',
-            content: '123足球课程体系'
-        },
-        {
-            name: 'description',
-            content: '123足球培训班，丰富多样化都课程体系和班级结构，更可私人定制课程与班级，相约123足球，选中可靠品牌。'
-        }]
+  name: 'customized',
+  metaInfo: {
+    title: '123足球私人定制课程体系－123足球',
+    meta: [{ // set meta
+      name: 'keyWords',
+      content: '123足球课程体系',
     },
+    {
+      name: 'description',
+      content: '123足球培训班，丰富多样化都课程体系和班级结构，更可私人定制课程与班级，相约123足球，选中可靠品牌。',
+    }],
+  },
   data() {
     return {};
   },
