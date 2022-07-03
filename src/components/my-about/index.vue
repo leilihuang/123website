@@ -7,17 +7,14 @@
                 <div class="pt52 pl80 clearfix">
                     <div class="f-left left">
                         <p class="text">
-                            “123足球”青少儿足球培训俱乐部，英文名One Two Three Football Club，
-                            简称OTTFC，亿梦足球旗下品牌，成立于2009年，
-                            是一家专注3—14岁青少儿足球培训的的专业青训机构。
+                            “123足球”青少儿足球培训俱乐部，英文名One Two Three Football Club， 简称OTTFC，2017年7月11日00:15在上海成立。
+                            是亿梦足球（成立于2009年）旗下品牌， 是一家专注4-14岁青少儿足球培训的的专业青训机构。
                         </p>
                         <p class="text p30">
-                            成立近10年多来，已在全国30多个城市、
-                            超过500个学校及培训点展开足球培训，累计学员达5万余人。
+                            母品牌成立近10年多来，已在全国30多个城市、 超过500个学校及培训点展开足球培训，累计学员达6万余人。
                         </p>
                         <p class="text p30">
-                            2017年2月，为了让更多孩子有机会接触专业的足球培训，
-                            123足球全国范围内率先在全上海70多个培训中心对外招生。
+                            为了让更多孩子有机会接触专业的足球培训，2017年7月11日00:15正式成立123足球，并于全国范围内率先在全上海20多个培训中心对外招生。
                         </p>
                         <div class="imgs">
                             <img data-src="/static/images/my-about/1-1.jpg" class="img">
@@ -26,7 +23,7 @@
                     </div>
                     <ul class="f-left">
                         <li>
-                            <span class="sj overHide">2017年2月</span>
+                            <span class="sj overHide">2017年7月11日00:15</span>
                             <i class="rad"></i>
                             <span class="con overHide">123足球成立并对外培训</span>
                         </li>
