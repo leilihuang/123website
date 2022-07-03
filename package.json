@@ -11,7 +11,7 @@
     "build": "node build/build.js"
   },
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.2",
     "element-ui": "^2.4.3",
     "vue": "^2.5.2",
     "vue-concise-slider": "^2.4.8",
